@@ -50,26 +50,19 @@
             android:textColor="#1A1717"
             android:textSize="24sp" />
 
-        <RadioGroup
-            android:id="@+id/rdgroup"
-            android:layout_width="match_parent"
+        <RadioButton
+            android:id="@+id/radioButton"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:orientation="horizontal">
+            android:text="Perempuan"
+            android:textSize="18sp" />
 
-            <RadioButton
-                android:id="@+id/radioButton2"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Laki-laki"
-                android:textSize="18sp" />
-
-            <RadioButton
-                android:id="@+id/radioButton"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Perempuan"
-                android:textSize="18sp" />
-        </RadioGroup>
+        <RadioButton
+            android:id="@+id/radioButton2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Laki-laki"
+            android:textSize="18sp" />
 
         <TextView
             android:id="@+id/textView7"
@@ -80,34 +73,26 @@
             android:textColor="#1A1717"
             android:textSize="24sp" />
 
-        <RadioGroup
-            android:id="@+id/rdgroup2"
+        <RadioButton
+            android:id="@+id/radioButton4"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:orientation="horizontal">
+            android:text="Menikah"
+            android:textSize="18sp" />
 
-            <RadioButton
-                android:id="@+id/radioButton3"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Sendiri"
-                android:textSize="18sp" />
+        <RadioButton
+            android:id="@+id/radioButton5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bercerai"
+            android:textSize="18sp" />
 
-            <RadioButton
-                android:id="@+id/radioButton4"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Menikah"
-                android:textSize="18sp" />
-
-
-            <RadioButton
-                android:id="@+id/radioButton5"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Bercerai"
-                android:textSize="18sp" />
-        </RadioGroup>
+        <RadioButton
+            android:id="@+id/radioButton3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sendiri"
+            android:textSize="18sp" />
 
         <TextView
             android:id="@+id/textView6"
